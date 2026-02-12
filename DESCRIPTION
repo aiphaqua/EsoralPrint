@@ -1,0 +1,16 @@
+Package: EsoralPrint
+Type: Package
+Title: EsoralPrint: A Single-Sample and Platform-Free Genomic Test for Oral and Esophageal Squamous Cell Carcinoma
+Version: 0.1.0
+Authors@R: 
+    person("Hung-Ming", "Lai", email = "hmlai@aiphaqua.com", role = c("aut", "cre"))
+Description: 
+    Implements a scalable, platform-free transcriptomic test for detecting OSCC and ESCC.
+    It operates on a true single-sample basis, with no need for cross-sample normalization, 
+    batch correction, centralized calibration protocols, or strict adherence to inter-sample quality controls. 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: stats
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
