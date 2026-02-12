@@ -3,6 +3,9 @@
 #' @param newdata Numeric matrix with genes as rows, samples as columns
 #' @param type "prob" or "class"
 #' @param cutoff numeric threshold for classification
+#' @param ... Optional additional arguments (currently unused)
+#'
+#' @return Data.frame with LinearScore, MalignancyProbability, and optionally Class.
 #' @export
 predict.EsoralPrint <- function(object, newdata, type = c("prob","class"), cutoff=0.5, ...) {
   type <- match.arg(type)
