@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of EsoralPrint is to ...
+The goal of EsoralPrint is to provide proof-of-concept evidence for a computationally robust, single-sample transcriptomic biomarker framework for squamous cell carcinoma of the upper aerodigestive tract.
 
 ## Installation
 
