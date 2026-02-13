@@ -22,6 +22,9 @@ This is a basic example which shows you how to run the genomic test:
 ``` r
 library(EsoralPrint)
 
+# Load example data
+data("TCGA_OSCC")
+
 # Create a model object
 model <- EsoralPrintModel()
 
