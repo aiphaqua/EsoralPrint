@@ -31,9 +31,8 @@ prob_results <- predict(model, expr_matrix, type="prob")
 # Predict classes
 class_results <- predict(model, expr_matrix, type="class", cutoff=0.5)
 
-
-The input expression matrix (expr_matrix) should have genes as rows (using gene symbols) and samples as columns.
-
-No cross-sample normalization, batch correction, or platform-specific adjustments are required.
+## Note that:
+# The input expression matrix (expr_matrix) should have gene symbols as rows and samples as columns.
+# No cross-sample normalization, batch correction, or platform-specific adjustments are required.
 ```
 
