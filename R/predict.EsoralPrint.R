@@ -41,7 +41,7 @@ predict.EsoralPrint <- function(object, newdata,
     Z <- Z + beta * iso_value
   }
 
-  MP <- 1 - 1 / (1 + exp(-Z))
+  MP <- 1 / (1 + exp(-Z))
 
   results <- data.frame(
     Sample = colnames(newdata),
