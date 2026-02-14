@@ -18,4 +18,4 @@
 #' Available from the Genomic Data Commons (GDC) Data Portal:
 #' https://portal.gdc.cancer.gov/
 #'
-"TCGA_OSCC"
+"expr_matrix"
