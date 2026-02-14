@@ -18,7 +18,7 @@
 \item{...}{Optional additional arguments (currently unused)}
 }
 \value{
-Data.frame with LinearScore, MalignancyProbability, and optionally Class.
+Data.frame with Likelihood (the degree to which a sample is likely to be malignant) and, optionally, Malignant (Yes or No).
 }
 \description{
 Predict Method for EsoralPrint

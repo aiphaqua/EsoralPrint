@@ -2,4 +2,3 @@
 
 S3method(predict,EsoralPrint)
 export(EsoralPrintModel)
-export(compute_esoralprint)
