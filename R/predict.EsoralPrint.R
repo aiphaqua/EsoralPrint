@@ -13,8 +13,24 @@ predict.EsoralPrint <- function(object, newdata,
 
   type <- match.arg(type)
 
-  if (is.null(rownames(newdata)))
-    stop("Row names must be gene symbols.")
+  if (is.vector(newdata)) {
+    if (is.null(names(newdata))) {
+      stop(
+        "Single-sample mode detected: ",
+        "'newdata' must be a named numeric vector with gene symbols as names."
+      )
+    }
+    gene_names <- names(newdata)
+    newdata <- matrix(newdata, ncol = 1)
+
+    # Assign names back to the rows
+    rownames(newdata) <- gene_names
+    colnames(newdata) <- "Submitted_Sample"
+  }
+
+  if (is.null(rownames(newdata))) {
+    stop("Row names (or vector names) must be gene symbols.")
+  }
 
   required_genes <- unique(c(object$isoPairs$gene_h,
                              object$isoPairs$gene_k))
