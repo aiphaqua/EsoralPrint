@@ -31,15 +31,12 @@ model <- EsoralPrintModel()
 # Multiple samples: prediction for the entire cohort
 # Predict probabilities
 prob_results <- predict(model, expr_matrix, type = "prob")
-
 # Predict classes
 class_results <- predict(model, expr_matrix, type = "class", cutoff = 0.5)
-
 
 # Single sample: prediction for a submitted sample
 single_sample_vector <- expr_matrix[, 1]
 names(single_sample_vector) <- rownames(expr_matrix)
-
 # Predict for just one patient
 single_result <- predict(model, single_sample_vector, type = "class")
 
@@ -53,6 +50,6 @@ print(single_result)
 # 2. No cross-sample normalization, batch correction, or platform-specific adjustments are required.
 # 3. For RNA-Seq data, we recommend using CPM, FPKM, or TPM units as gene expression values.
      Read Counts are not recommended.
-# 4. For single-sample prediction, provide a named numeric vector where names correspond to gene symbols.
+# 4. For single-sample prediction, provide a named numeric vector where names are gene symbols.
 ```
 
