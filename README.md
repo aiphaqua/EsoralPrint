@@ -49,7 +49,7 @@ print(single_result)
 #    (row names as gene symbols) and samples as columns.
 # 2. No cross-sample normalization, batch correction, or platform-specific adjustments are required.
 # 3. For RNA-Seq data, we recommend using CPM, FPKM, or TPM units as gene expression values.
-     Read Counts are not recommended.
+#    Read Counts are not recommended.
 # 4. For single-sample prediction, provide a named numeric vector where names are gene symbols.
 ```
 
