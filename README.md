@@ -4,7 +4,7 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-EsoralPrint aims to provide a plug-and-play, single-sample transcriptomic biomarker framework for squamous cell carcinoma of the upper aerodigestive tract that does not require standardized processing protocols or controls.
+Operating on a true single-sample basis, EsoralPrint provides a plug-and-play transcriptomic biomarker framework for squamous cell carcinoma of the upper aerodigestive tract that does not require standardized processing protocols or controls.
 
 ## Installation
 
