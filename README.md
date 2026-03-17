@@ -5,7 +5,7 @@
 <!-- badges: end -->
 
 Operating on a true single-sample basis, EsoralPrint provides a plug-and-play, molecular malignancy gradient
-for squamous cell carcinoma of the upper aerodigestive tract that does not require standardized processing protocols or controls.
+for upper aerodigestive tract squamous cell carcinomas (SCCs) that does not require standardized processing protocols or inter-sample quality controls.
 
 ## Installation
 
