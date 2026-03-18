@@ -1,14 +1,14 @@
 Package: EsoralPrint
 Type: Package
-Title: EsoralPrint: Platform-Agnostic Scoring for Molecular Interception of Oral and Esophageal Malignancy
+Title: EsoralPrint: Platform-Agnostic Quantification for Molecular Interception of Oral and Esophageal Malignancies
 Version: 0.1.0
 Authors@R: 
-    person("Hung-Ming", "Lai", email = "hmlai@aiphaqua.com", role = c("aut", "cre"))
+    person("Homing", "Lai", role = c("aut", "cre"))
 Description: 
     Implements a scalable, objective, platform-independent, and quantitative measure of 
     the molecular-morphological gap that complements traditional histological grading in OSCC and ESCC.
-    It operates on a true single-sample basis, with no need for cross-sample normalization, 
-    batch correction, centralized calibration protocols, or strict adherence to inter-sample quality controls. 
+    It operates on a true single-sample basis, with no need for batch correction, 
+    centralized calibration protocols, or strict adherence to inter-sample quality controls. 
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
