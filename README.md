@@ -1,4 +1,3 @@
-
 # EsoralPrint
 
 <!-- badges: start -->
@@ -54,3 +53,8 @@ print(single_result)
 # 4. For single-sample prediction, provide a named numeric vector where names are gene symbols.
 ```
 
+## Citation
+
+If you use EsoralPrint, please cite:
+
+Hung-Ming Lai, Hua-Ping Liu, Kaia Douglas, Keith Johnson, Xuanhua P Xie. Platform-agnostic quantification for molecular interception of oral and esophageal malignancies: a global study addressing the diagnostic divide. *JNCI Cancer Spectrum*, Volume 10, Issue 6, December 2026, pkag102. https://doi.org/10.1093/jncics/pkag102
